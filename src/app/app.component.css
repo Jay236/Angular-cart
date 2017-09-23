@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url("images/hall.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.movieItem{
+    cursor: pointer;
+    display: inline;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    background:black;
+    border-bottom: 2px solid #eee;
+    color: white;
+    padding: 40px 0;
+    text-shadow: 0 0 11px white;
+}
+h3{
+    padding-top: 24px;
+    padding-bottom: 10px;
+    color:white;
+}
+
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.movieItem{
+    width: 29%;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    height: 600px;
+    margin: 2%;
+    position: relative;
+}
+     /* Movie images */
+
+.Sucide-Squad{
+    background: url("images/squad.jpg");
+}
+.NYSM{
+    background: url("images/nysm.jpg");
+}
+.Hang-Over{
+    background: url("images/hangover.png");
+}
+.Fate-of-Furious{
+    background: url("images/F8.jpg");
+}
+.Wolf-of-Wall-Street{
+    background: url("images/wall.jpg");
+}  
+.Real-Steel{
+    background: url("images/real.jpg");
+}
+
+.movieName{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.72);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+a button{
+    width: 80px; 
+    float:right;
+    font-size:15px;
+    margin: 10px;
+    padding: 10px;
+}
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
